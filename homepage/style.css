@@ -1,0 +1,41 @@
+.title {
+    width: 275px;
+    font-family: courier;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -webkit-transition: all .25s;
+}
+.title:hover {
+     background-color: #ff8989;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -webkit-transition: all .25s;
+}
+.title:hover:after { 
+    content: "< ha ha";
+    background-color: #FFC549;
+    padding: 10px;
+    padding-top: 5px;
+    padding-right: 1030px;
+    padding-bottom: 5px
+}
+.note {
+    color: black;
+    background: #faf2ce no-repeat 10px 10px;
+    border: 2px solid #edce42;
+    padding: 10px;
+    font-family: courier;
+}
+body {
+    background-color: #81D8D0; 
+    font-family: arial;
+    padding: 2.5px;
+}
+a {
+color: #6767ff
+}

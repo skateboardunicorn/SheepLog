@@ -1,41 +1,36 @@
-.title {
-    width: 275px;
+body {
+    background-color: #66CCFF;
+    font-family: arial;
+    font-size: 15px;
+}
+p {
+    background-color: white;
+    color: #484848;
+    padding: 5px;
+    border-radius: 3px;
+}
+.HeaderTitle {
     font-family: courier;
-    color: #ffffff;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     font-size: 20px;
-    -moz-transition: all .25s;
-    -o-transition: all .25s;
-    -webkit-transition: all .25s;
+    color: #FFFFFF;
+    background-color: #FF8484;
+    padding: 5px;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
 }
-.title:hover {
-     background-color: #ff8989;
-    -moz-transition: all .25s;
-    -o-transition: all .25s;
-    -webkit-transition: all .25s;
+.HeaderTitle:hover {
+    font-size: 25px;
+    color: black;
+    background-color: #FFFF9E;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
 }
-.title:hover:after { 
-    content: "< ha ha";
-    background-color: #FFC549;
-    padding: 10px;
-    padding-top: 5px;
-    padding-right: 1030px;
-    padding-bottom: 5px
+.HeaderTitle:hover:after {
+    content: "[made by DinosuarAnon, 2015]";
 }
 .note {
-    color: black;
-    background: #faf2ce no-repeat 10px 10px;
-    border: 2px solid #edce42;
-    padding: 10px;
-    font-family: courier;
-}
-body {
-    background-color: #81D8D0; 
-    font-family: arial;
-    padding: 2.5px;
-}
-a {
-color: #6767ff
+    background-color: #ADFFAA;
+    padding: 5px;
 }
